@@ -1,5 +1,6 @@
 {
-  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "$schema": "http s://docs.renovatebot.com/renovate-schema.json",
+  "configMigration": true,
   "packageRules": [
     {
       "description": "packageRule which needs migration",
