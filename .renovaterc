@@ -4,8 +4,10 @@
   "packageRules": [
     {
       "description": "packageRule which needs migration",
-      "matchPackagePatterns": ["*"],
-      "enabled": true
+      "enabled": true,
+      "matchPackageNames": [
+        "*"
+      ]
     }
   ]
 }
