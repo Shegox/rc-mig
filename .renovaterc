@@ -1,0 +1,9 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "description": "packageRule which needs migration",
+      "matchPackagePatterns": ["*"],
+      "enabled": true
+  ]
+}
